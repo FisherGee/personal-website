@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { BsFilePdfFill } from "react-icons/bs";
 function PersonalMedia() {
   return (
-    <div className="flex gap-3 items-center">
+    <div className="flex flex-wrap gap-3 items-center">
       <Card className="w-18 h-18 shadow-none border-none hover:scale-130 hover:border-none p-0 overflow-hidden">
         <img src={profileImg} className="scale-200" alt="profile"></img>
       </Card>
