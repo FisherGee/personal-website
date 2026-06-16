@@ -11,7 +11,7 @@ function Skills() {
       <div className="flex flex-wrap gap-2">
         <h2 className="text-text">Technical Skills:</h2>
         {skills.map((skill) => (
-          <span className="bg-accent/10 text-accent text-xs px-3 py-1 rounded-full">
+          <span className="bg-accent/10 text-accent2 text-xs px-3 py-1 rounded-full">
             {skill}
           </span>
         ))}
@@ -19,7 +19,7 @@ function Skills() {
       <div className="flex flex-wrap gap-2">
         <h2 className="text-text">Other Skills:</h2>
         {other_skills.map((skill) => (
-          <span className="bg-accent/10 text-accent text-xs px-3 py-1 rounded-full">
+          <span className="bg-accent/10 text-accent2 text-xs px-3 py-1 rounded-full">
             {skill}
           </span>
         ))}

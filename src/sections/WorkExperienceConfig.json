@@ -1,0 +1,83 @@
+{
+  "Tucows": {
+    "time": "Jun 2026 - Present",
+    "location": "Toronto, Canada",
+    "body": "\nFocused on budgeting and forecasting the fiscal year for TCX Shared services, a company that allocates and oversees all of subsidiaries.",
+    "skills_impact": [
+        {
+            "skill": "Technical",
+            "impact": "30%",
+            "icon": "cpu"
+        },
+        {
+            "skill": "Financial",
+            "impact": "100%",
+            "icon": "chart"
+        },
+        {
+            "skill": "Leadership",
+            "impact": "40%",
+            "icon": "flag"
+        },
+        {
+            "skill": "Teamwork",
+            "impact": "80%",
+            "icon": "shield"
+        }
+    ]
+    },
+  "The ReefCraft Network": {
+    "time": "Mar 2019 - Aug 2021",
+    "location": "Toronto, Canada",
+    "body": "\nFounded a large-scale gaming network that served 1500 concurrent users and managed a team of 10 staff members. Developed over $7,000 USD worth of private software and digital assets.",
+    "skills_impact": [
+        {
+            "skill": "Technical",
+            "impact": "90%",
+            "icon": "cpu"
+        },
+        {
+            "skill": "Financial",
+            "impact": "40%",
+            "icon": "chart"
+        },
+        {
+            "skill": "Leadership",
+            "impact": "100%",
+            "icon": "flag"
+        },
+        {
+            "skill": "Teamwork",
+            "impact": "100%",
+            "icon": "shield"
+        }
+    ]
+  },
+    "ePIC Blockchain": {
+    "time": "Jul 2021 - Sep 2021",
+    "location": "Toronto, Canada",
+    "body": "\nDeveloped a custom RFID door security system for the Toronto office using in-house circuit boardss and microcontrollers to improve employee workplace efficiency.",
+    "skills_impact": [
+        {
+            "skill": "Technical",
+            "impact": "70%",
+            "icon": "cpu"
+        },
+        {
+            "skill": "Financial",
+            "impact": "0%",
+            "icon": "chart"
+        },
+        {
+            "skill": "Leadership",
+            "impact": "60%",
+            "icon": "flag"
+        },
+        {
+            "skill": "Teamwork",
+            "impact": "70%",
+            "icon": "shield"
+        }
+    ]
+  }
+}
