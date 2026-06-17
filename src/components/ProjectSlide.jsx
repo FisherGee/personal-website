@@ -1,19 +1,23 @@
 import useEmblaCarousel from "embla-carousel-react";
-import Card from "./Card.jsx";
 
 function ProjectSlide() {
   const [emblaRef] = useEmblaCarousel();
 
   return (
-    <div className="overflow-hidden w-full mx-auto rounded-xl" ref={emblaRef}>
-      <div className="flex gap-3">
-        <Card className="flex-none w-1/2 h-50 shadow-none hover:scale-100 active:scale-95 border-none">
-          The ReefCraft Network
-        </Card>
-        <Card className="flex-none w-1/2 h-50 shadow-none hover:scale-100 active:scale-95 border-none">
-          NFT Manager
-        </Card>
-        <Card className="flex-none w-1/2 h-50 shadow-none hover:scale-100 active:scale-95 border-none"></Card>
+    <div className="w-full mx-auto rounded-xl h-64" ref={emblaRef}>
+      <div className="flex gap-5 h-full">
+        <div className="h-full w-full overflow-hidden rounded-xl hover:scale-105 transition-transform duration-300">
+          <img
+            src="/src/assets/reef.png"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="h-full w-full overflow-hidden rounded-xl hover:scale-105 transition-transform duration-300">
+          <img
+            src="/src/assets/nft.svg"
+            className="w-full h-full object-cover"
+          />
+        </div>
       </div>
     </div>
   );
